@@ -1,0 +1,11 @@
+﻿TOPIC
+	about_TeamsExtension
+	
+SHORT DESCRIPTION
+	Explains how to use the TeamsExtension powershell module
+	
+LONG DESCRIPTION
+	<Insert Content here>
+
+KEYWORDS
+	TeamsExtension
