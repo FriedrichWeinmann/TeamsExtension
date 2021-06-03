@@ -19,6 +19,16 @@
         The path in which to generate the json-file-backed export.
         Specify a folder, it will create one subfolder per team exported.
         Defaults to the current path.
+	
+	.PARAMETER EnableException
+		This parameters disables user-friendly warnings and enables the throwing of exceptions.
+		This is less user friendly, but allows catching exceptions in calling scripts.
+	
+	.PARAMETER Confirm
+		If this switch is enabled, you will be prompted for confirmation before executing any operations that change state.
+	
+	.PARAMETER WhatIf
+		If this switch is enabled, no actions are performed but informational messages will be displayed that explain what would happen if the command were to run.
     
     .EXAMPLE
         PS C:\> Get-Team | Export-TeamMessage
